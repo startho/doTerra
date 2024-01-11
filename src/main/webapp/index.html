@@ -2,80 +2,157 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width; initiol-scale=1.0" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
 <title>doTERRA Korea</title>
-<link rel="shortcut icon"type="image/x-icon"href="images/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
- <div id="header">
-<div class="header_wrap">
- <div class="logo">
- <img src="images/logo.png"alt="도테라 코리아">
- </div>
- <div class="nav">
- <a href="#">company</a>
- <a href="#">product</a>
- <a href="#">schedule</a>
- <a href="#">cs center</a>
- <a href="#" class="catalogue">catalogue</a>
- </div>
- <div class="member">
- <a href="#">login</a>
- <a href="#">join</a>
- </div>
- </div>
- </div>
- <div id="ad" class="ad-bg">
- <div class="container mx-auto h-835 pos-relative">
- <div class="hot-item">
- <a href="#">
- <img src="images/visual_item.png"alt="인기상품 샘플신청">
- </a>
- </div>
- </div>
- </div>
- <div id="main">
- <div class="promo">
- <div class="container mx-auto py-100">
- <h2 class="text-center text-cap">promotion</h2>
- <div class="promo_imgs">
- <img src="images/promotion_img1.jpg" alt="power incentive trip">
-  <img src="images/promotion_img2.jpg" alt="double up with deep bluer">
- </div>
- </div>
- </div>
- <div class="icons my-50">
- <div class="container mx-auto d-flex justify-between">
- <div class="icons">
-<div class="over pos-absolute">
- <img src="images/cate_btn1.png"alt="living magazine">
- </div>
-  <img src="images/cate_img1.jpg"alt="living magazine">
- </div>
- <div class="icons">
-<div class="over pos-absolute">
- <img src="images/cate_btn2.png"alt="product catalogue">
- </div>
-  <img src="images/cate_img2.jpg"alt="product catalogue">
- </div>
-  <div class="icons">
-<div class="over pos-absolute">
- <img src="images/cate_btn3.png"alt="event calendar">
- </div>
-  <img src="images/cate_img3.jpg"alt="event calendar">
- </div>
- </div>
- </div>
-</div>
- <div class="slogan bg-black">
- <div class="container">
- <img src="images/banner.jpg"alt="clean business">
- </div>
- </div>
- <div class="video"></div>
- 
- 
- <div id="footer"></div>
+	<!-- #header+#ad+#main+#footer|c -->
+	<div id="header">
+		<div class="header_wrap">
+			<div class="logo">
+				<img src="images/logo.png" alt="도테라 코리아" />
+			</div>
+			<div class="nav">
+				<a href="#">company</a>
+				<a href="#">product</a>
+				<a href="#">schedule</a>
+				<a href="#">cs center</a>
+				<a href="#" class="catalogue">catalogue</a>
+			</div>
+			<div class="member">
+				<a href="#">login</a>
+				<a href="#">join</a>
+			</div>
+		</div>
+		<!-- /.header_wrap -->
+	</div>
+	<div id="ad" class="ad-bg">
+		<!-- 1. 이미지를 직접 삽입하는 방법 -->
+		<!-- 2. 이미지를 간접(배경) 삽입하는 방법 -->
+		<div class="container mx-auto h-835 pos-relative">
+			<div class="hot-item">
+				<a href="#">
+					<img src="images/visual_item.png" alt="인기상품 샘플신청">
+				</a>
+			</div>
+		</div><!-- /.container -->
+	</div>
+	<div id="main">
+		<div class="promo">
+			<div class="container mx-auto py-100">
+				<h2 class="text-center text-cap">promotion</h2>
+				<div class="promo_imgs d-flex justify-between">
+					<img src="images/promotion_img1.jpg" alt="power incentive trip">
+					<img src="images/promotion_img2.jpg" alt="doblue up with deep bluer">					
+				</div>
+			</div>
+		</div>
+		<div class="icons my-50">
+			<!-- Emmet : div*3>img[src=images/cate_img$.jpg alt=cate] -->
+			<div class="container mx-auto d-flex justify-between">
+				<div class="icon">
+					<div class="over pos-absolute">
+						<img src="images/cate_btn1.png" alt="living magazine">
+					</div>
+					<img src="images/cate_img1.jpg" alt="living magazine">
+				</div>
+				<div class="icon">
+					<div class="over pos-absolute">
+						<img src="images/cate_btn2.png" alt="product catalogue">
+					</div>
+					<img src="images/cate_img2.jpg" alt="product catalogue">
+				</div>
+				<div class="icon">
+					<div class="over pos-absolute">
+						<img src="images/cate_btn3.png" alt="event calendar">
+					</div>
+					<img src="images/cate_img3.jpg" alt="event calendar">
+				</div>
+			</div>
+			<!-- /.container mx-auto -->
+		</div>
+		<div class="slogan bg-black">
+			<div class="container mx-auto">
+				<img src="images/banner.jpg" alt="clean business">
+			</div>
+		</div>
+		<div class="videos my-50">
+			<!-- Emmet : div*3>img[src=images/cate_img$.jpg alt=cate] -->
+			<h2 class="text-center text-cap">video</h2>
+			<div class="container mx-auto d-flex justify-between">
+				<div class="video">
+					<div class="over pos-absolute">
+						<img src="images/video_btn.png" alt="video">
+					</div>
+					<img src="images/video_img1.jpg" alt="video">
+				</div>
+				<div class="video">
+					<div class="over pos-absolute">
+						<img src="images/video_btn.png" alt="video">
+					</div>
+					<img src="images/video_img2.jpg" alt="video">
+				</div>
+				<div class="video">
+					<div class="over pos-absolute">
+						<img src="images/video_btn.png" alt="video">
+					</div>
+					<img src="images/video_img3.jpg" alt="video">
+				</div>
+			</div>
+			<!-- /.container mx-auto -->
+		</div>
+	</div>
+	<!-- SNS나 본문과 관련성이 적은 컨텐츠/배너/링크들은 sidebar 등으로 분리 -->
+	<div id="footer">
+		<hr>
+		<div class="container mx-auto my-10">
+			<div class="sns-pdf d-flex justify-between">
+				<div class="sns">
+					<a href="#">
+						<img src="images/sns1.png" alt="facebook">
+					</a>
+					<a href="#">
+						<img src="images/sns2.png" alt="blog">
+					</a>
+					<a href="#">
+						<img src="images/sns3.png" alt="insta">
+					</a>
+					<a href="#">
+						<img src="images/sns4.png" alt="kakao story">
+					</a>
+				</div>
+				<div class="pdf">
+					<a href="#">
+						<img src="images/footer_icon1.png" alt="가이드라인">
+						온라인 판매 가이드라인
+					</a>
+					<a href="#">
+						<img src="images/footer_icon2.png" alt="심의 요청서">
+						웹사이트 사전 심의 요청서
+					</a>
+				</div>
+			</div><!-- /.sns-pdf -->
+		</div><!--  /.container -->
+		<hr>
+		<div class="container mx-auto">
+			<div class="brand-logo my-30">
+				<a href="#">
+					<img src="images/footer_logo.png" alt="도테라 코리아">
+				</a>
+			</div>
+			<div class="links my-30">
+				<a href="#">이용약관</a>
+				<a href="#">이용안내</a>
+				<a href="#">개인정보취급방침</a>
+				<a href="#">고객센터</a>
+			</div>
+			<div class="owner my-30">
+				<p>상호 : 도테라코리아 대표자 : 홍길동 사업자등록번호 : 광주-제29호 주소 : 광주광역시 서구 경열로 3, 도테라빌딩 고객센터 : 062-123-4567</p>
+				<p>copyright &copy; doTerra Korea. all rights reserved</p>
+			</div>
+		</div><!-- /.container -->
+	</div><!-- /#footer -->
 </body>
-</html>
+</html> 
