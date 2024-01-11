@@ -128,3 +128,16 @@ a, a:link {
 
 
 
+.icon:hover .over {
+	opacity: 1;
+}
+.over {
+	opacity: 0;
+}
+
+
+
+
+
+
+
