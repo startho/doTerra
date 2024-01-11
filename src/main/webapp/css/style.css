@@ -54,6 +54,9 @@ a, a:link {
 	justify-content: space-between;
 }
 
+.bg-black {
+	background-color: #000000;
+}
 
 
 #header {
